@@ -24,6 +24,8 @@ public class Program
         builder.Services.AddScoped<IShipperService, ShipperService>();
         builder.Services.AddScoped<IRegionService, RegionService>();
 
+        // comment
+
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
 
